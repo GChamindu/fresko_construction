@@ -2,7 +2,7 @@ export const menuData = [
   {
     label: "Home",
     href: "/",
-    iconClass: "fa-regular fa-plus",
+    // iconClass: "fa-regular fa-plus",
     className: "has-dropdown active menu-thumb",
     // submenu: [
     //   {
@@ -47,18 +47,18 @@ export const menuData = [
         ],
       },
       { label: "Pricing", href: "/pricing" },
-      { label: "Faq's", href: "/faq" },
-      { label: "404 Page", href: "/404" },
+      // { label: "Faq's", href: "/faq" },
+      // { label: "404 Page", href: "/404" },
     ],
   },
   {
     label: "Services",
-    href: "#",
-    iconClass: "fa-regular fa-plus",
-    submenu: [
-      { label: "Services", href: "/service" },
-      { label: "Service Details", href: "/service-details/1" },
-    ],
+    href: "/service",
+    // iconClass: "fa-regular fa-plus",
+    // submenu: [
+    //   { label: "Services", href: "/service" },
+    //   { label: "Service Details", href: "/service-details/1" },
+    // ],
   },
   {
     label: "Projects",
