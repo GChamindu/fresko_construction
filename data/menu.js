@@ -1,31 +1,31 @@
 export const menuData = [
   {
     label: "Home",
-    href: "#",
+    href: "/",
     iconClass: "fa-regular fa-plus",
     className: "has-dropdown active menu-thumb",
-    submenu: [
-      {
-        homeMenuItems: [
-          {
-            imageSrc: "/assets/img/header/home-1.jpg",
-            title: "Home 01",
-            buttons: [
-              { label: "Multi Page", href: "/" },
-              { label: "One Page", href: "/home-1-one-page" },
-            ],
-          },
-          {
-            imageSrc: "/assets/img/header/home-2.jpg",
-            title: "Home 02",
-            buttons: [
-              { label: "Multi Page", href: "/home-2" },
-              { label: "One Page", href: "/home-2-one-page" },
-            ],
-          },
-        ],
-      },
-    ],
+    // submenu: [
+    //   {
+    //     homeMenuItems: [
+    //       {
+    //         imageSrc: "/assets/img/header/home-1.jpg",
+    //         title: "Home 01",
+    //         buttons: [
+    //           { label: "Multi Page", href: "/" },
+    //           { label: "One Page", href: "/home-1-one-page" },
+    //         ],
+    //       },
+    //       {
+    //         imageSrc: "/assets/img/header/home-2.jpg",
+    //         title: "Home 02",
+    //         buttons: [
+    //           { label: "Multi Page", href: "/home-2" },
+    //           { label: "One Page", href: "/home-2-one-page" },
+    //         ],
+    //       },
+    //     ],
+    //   },
+    // ],
   },
   {
     label: "About Us",
