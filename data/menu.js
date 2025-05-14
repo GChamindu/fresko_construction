@@ -62,23 +62,23 @@ export const menuData = [
   },
   {
     label: "Projects",
-    href: "#",
-    iconClass: "fa-regular fa-plus",
-    submenu: [
-      { label: "Projects", href: "/project" },
-      { label: "Project Details", href: "/project-details/1" },
-    ],
+    href: "/project",
+    // iconClass: "fa-regular fa-plus",
+    // submenu: [
+    //   { label: "Projects", href: "/project" },
+    //   { label: "Project Details", href: "/project-details/1" },
+    // ],
   },
-  {
-    label: "Blog",
-    href: "#",
-    iconClass: "fa-regular fa-plus",
-    submenu: [
-      { label: "Blog Grid", href: "/news-grid" },
-      { label: "Blog Standard", href: "/news" },
-      { label: "Blog Details", href: "/news-details/1" },
-    ],
-  },
+  // {
+  //   label: "Blog",
+  //   href: "#",
+  //   iconClass: "fa-regular fa-plus",
+  //   submenu: [
+  //     { label: "Blog Grid", href: "/news-grid" },
+  //     { label: "Blog Standard", href: "/news" },
+  //     { label: "Blog Details", href: "/news-details/1" },
+  //   ],
+  // },
   {
     label: "Contact Us",
     href: "/contact",
