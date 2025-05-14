@@ -27,14 +27,14 @@ export const menuData = [
     //   },
     // ],
   },
+  // {
+  //   label: "About Us",
+  //   href: "/about",
+  // },
   {
     label: "About Us",
-    href: "/about",
-  },
-  {
-    label: "Pages",
     href: "#",
-    iconClass: "fa-regular fa-plus",
+    // iconClass: "fa-regular fa-plus",
     className: "has-dropdown",
     submenu: [
       {
